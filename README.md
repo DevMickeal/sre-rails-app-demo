@@ -17,11 +17,12 @@ cd <project-root>
 
 2. Run the provisioning script:
 ```bash
-./sub.sh
+./rails-provisioning.sh
 ```
 
 3. Start all services:
 ```bash
+cd hell_world_app
 ./scripts/start.sh
 ```
 
