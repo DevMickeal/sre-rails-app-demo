@@ -49,6 +49,18 @@ The application consists of:
 - Alertmanager (alert routing)
 - Various exporters for metrics collection
 
+## Why local Docker Compose?
+A local Docker Compose setup is used to simplify the initial setup and avoid external dependencies.
+This allows anyone (including reviewers) to easily run and evaluate the application on their own machine without requiring:
+
+Terraform or cloud infrastructure
+
+GitHub Actions or CI/CD setup
+
+Cloud accounts or credentials
+
+The focus is on local reproducibility, observability, and demonstrating core monitoring concepts clearly. The setup can be extended later to use Terraform or GitHub Actions as needed.
+
 ## Monitoring
 
 See [MONITORING.md](MONITORING.md) for detailed monitoring documentation.
