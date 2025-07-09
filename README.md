@@ -5,6 +5,8 @@
 ### Prerequisites
 - Docker and Docker Compose installed
 - Git
+- ruby
+- rails
 - At least 4GB of available RAM
 
 ### Installation

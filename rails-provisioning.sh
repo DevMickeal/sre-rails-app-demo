@@ -318,9 +318,6 @@ RUN bundle config set --global retry 5 \
 # Copy Gemfile and lockfile
 COPY Gemfile Gemfile.lock ./
 
-# Remove lockfile to let bundler resolve versions
-RUN rm -f Gemfile.lock
-
 # Set bundle config and install gems
 RUN bundle config set --local without 'development test' \
  && bundle install
